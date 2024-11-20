@@ -12,4 +12,4 @@ Metodología BEM (Block, Element, Modifier) Utilizamos la metodología BEM para 
 UTILIZAMOS HTML Y CSS PURO
 Pagina que clonamos: netflix.com
 
-By Andres Perez,
+By Andres Perez, Gersyn Puello,
