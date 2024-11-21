@@ -1,14 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/font.css">
     <title>Netflix clone</title>
-</head>
-<body>
-    <h2>Esto es el header</h2>
-    <button>sdada</button>
-</body>
+  </head>
+  <body>
+    <head>
+      <nav class="nav__container">
+        <div class="nav__container--izquierda">
+          <div class="nav__logo nav__item--izquierda"></div>
+          <a href="#" class="nav__enlace nav__item--izquierda">Inicio</a>
+          <a href="#" class="nav__enlace nav__item--izquierda">Series</a>
+          <a href="#" class="nav__enlace nav__item--izquierda">Peliculas</a>
+          <a href="#" class="nav__enlace nav__item--izquierda"
+            >Novedades populares</a
+          >
+          <a href="#" class="nav__enlace nav__item--izquierda">Mi lista</a>
+          <a href="#" class="nav__enlace nav__item--izquierda"
+            >Explora por idiomas</a
+          >
+        </div>
+
+        <div class="nav__container--derecha">
+          <svg
+            width="10px"
+            height="10px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="nav__enlace nav__item--derecha"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
+                stroke="#fff"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </g>
+          </svg>
+          <a href="#" class="nav__enlace nav__item--derecha">Niños</a>
+          <svg
+            width="10px"
+            height="10px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="nav__enlace nav__item--derecha"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M9.0003 21H15.0003M18.0003 8.6C18.0003 7.11479 17.3682 5.69041 16.2429 4.6402C15.1177 3.59 13.5916 3 12.0003 3C10.409 3 8.88288 3.59 7.75766 4.6402C6.63245 5.69041 6.0003 7.11479 6.0003 8.6C6.0003 11.2862 5.32411 13.1835 4.52776 14.4866C3.75646 15.7486 3.37082 16.3797 3.38515 16.5436C3.40126 16.7277 3.4376 16.7925 3.58633 16.9023C3.71872 17 4.34793 17 5.60636 17H18.3943C19.6527 17 20.2819 17 20.4143 16.9023C20.563 16.7925 20.5994 16.7277 20.6155 16.5436C20.6298 16.3797 20.2441 15.7486 19.4729 14.4866C18.6765 13.1835 18.0003 11.2862 18.0003 8.6Z"
+                stroke="#fff"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </g>
+          </svg>
+
+          <div class="nav__perfil">
+            <a href="">
+              <span>
+                <img
+                  class="nav__img"
+                  src="https://occ-0-4652-3933.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABfn5oPOIGVSlH36wxaH-5oL5d8wztZgxFQeRq_LSU9RKySbIUMGZ2118vOWyS6Xl3wkKoIHBIknKKSY7YjP3lhLbaaMR3u8.png?r=72f"
+                  alt=""
+                />
+              </span>
+            </a>
+
+            <svg
+              width="5px"
+              height="5px"
+              viewBox="0 0 24.00 24.00"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              transform="matrix(-1, 0, 0, 1, 0, 0)rotate(0)"
+              stroke="#ffffff"
+              stroke-width="2.4"
+              class="nav__enlace nav__item--derecha"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke="#ffffff"
+                stroke-width="2"
+              >
+                <path
+                  d="M18.2929 15.2893C18.6834 14.8988 18.6834 14.2656 18.2929 13.8751L13.4007 8.98766C12.6195 8.20726 11.3537 8.20757 10.5729 8.98835L5.68257 13.8787C5.29205 14.2692 5.29205 14.9024 5.68257 15.2929C6.0731 15.6835 6.70626 15.6835 7.09679 15.2929L11.2824 11.1073C11.673 10.7168 12.3061 10.7168 12.6966 11.1073L16.8787 15.2893C17.2692 15.6798 17.9024 15.6798 18.2929 15.2893Z"
+                  fill="#ffffff"
+                ></path>
+              </g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M18.2929 15.2893C18.6834 14.8988 18.6834 14.2656 18.2929 13.8751L13.4007 8.98766C12.6195 8.20726 11.3537 8.20757 10.5729 8.98835L5.68257 13.8787C5.29205 14.2692 5.29205 14.9024 5.68257 15.2929C6.0731 15.6835 6.70626 15.6835 7.09679 15.2929L11.2824 11.1073C11.673 10.7168 12.3061 10.7168 12.6966 11.1073L16.8787 15.2893C17.2692 15.6798 17.9024 15.6798 18.2929 15.2893Z"
+                  fill="#ffffff"
+                ></path>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </nav>
+    </head>
+  </body>
 </html>
