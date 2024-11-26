@@ -4,7 +4,7 @@ body {
   font-family: "Netflix-Sans";
   background-color: #8889;
 }
-
+/* Estilos del header */
 nav {
   display: flex;
   height: 30px;
