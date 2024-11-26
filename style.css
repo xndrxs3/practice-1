@@ -1,0 +1,80 @@
+body {
+  margin: auto;
+  padding: 0;
+  font-family: "Netflix-Sans";
+  background-color: #8889;
+}
+/* Estilos del header */
+nav {
+  display: flex;
+  height: 30px;
+  width: 100%;
+  background-color: transparent;
+  justify-content: space-between;
+  font-size: 0.625em;
+  font-weight: 200;
+  letter-spacing: -0.3px;
+  padding: 2px 2px 0 2px; 
+  
+}
+
+.nav__logo {
+  height: 20px;
+  width: 50px;
+  background: url(https://1000marcas.net/wp-content/uploads/2020/01/Logo-Netflix.png)
+    0px / cover;
+  position: relative;
+  right: 5px;
+  cursor: pointer;
+}
+.nav__container--izquierda {
+  display: flex;
+  align-items: center;
+  padding: 0 3%;
+}
+.nav__item--izquierda {
+  margin: 0 5px;
+}
+
+.nav__enlace {
+  font-size: 8px;
+  text-decoration: none;
+  color: white;
+  transition: color 0.4s;
+  cursor: pointer;
+}
+.nav__enlace:hover {
+  color: gray;
+}
+.nav__container--derecha {
+  display: flex;
+  align-items: center;
+  padding: 0 3%;
+}
+
+.nav__perfil {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 4px;
+}
+.nav__perfil svg {
+  margin-left: 2px;
+  overflow: visible;
+  transition: transform 367ms cubic-bezier(0.21, 0, 0.07, 1);
+}
+.nav__perfil:hover svg {
+  transform: rotate(180deg);
+}
+.nav__item--derecha {
+  margin: 0 5px;
+  color: white;
+}
+.nav__img {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+}
